@@ -18,7 +18,7 @@ symbolDict = {
 def getPoints(user, computer):
     diff = symbolDict.get(user) - symbolDict.get(computer)
     if (diff == 0):
-        return symbolDict.get(user) + outcomeDict.get("tie")
+        return symbolDict.get(user) + outcomeDict.get('tie')
     if (diff == 1 or diff == -2):
         return symbolDict.get(user) + outcomeDict.get('win')
    
